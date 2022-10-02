@@ -1,7 +1,8 @@
 import json
-
-f = open("stations.json")
-stationtext = f.read()
+import requests
+url = "https://gbfs.divvybikes.com/gbfs/en/station_status.json"
+response = requests.get(url)
+stationtext = response.text
 stations = json.loads(stationtext)
 data = stations["data"]
 stationslist = data["stations"]
