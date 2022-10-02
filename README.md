@@ -10,7 +10,7 @@ First make sure that you have Python3 installed. Then open the terminal and type
 python process_data.py
 ```
 
-You should get out put that looks like this:
+You should get output that looks like this:
 ```
 The Number of Divvy Bikes Currently Available in Chicago: 3695
 The Number of Scooters Currently Available in Chicago: 299
